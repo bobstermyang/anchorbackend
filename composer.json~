@@ -1,0 +1,30 @@
+{
+    "name": "anchorcms/backend",
+    "type": "anchorcms-module",
+    "description": "Backend module for Anchor CMS",
+    "homepage": "http://anchortag.co",
+    "keywords": ["anchor cms", "anchortag", "backend"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bobby Yang",
+            "email": "bobstermyang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "~1.0",
+        "october/rain": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Backend\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
